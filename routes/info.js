@@ -1,15 +1,15 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.render('information/info')
-})
+// router.get('/', (req, res) => {
+//     res.render('information/info')
+// })
 
 router.get('/info-first', (req, res) => {
     res.render('information/info-first')
 })
 
-router.get('/info-general', (req, res) => {
+router.get('/info/info-general', (req, res) => {
     res.render('information/info-general')
 })
 
